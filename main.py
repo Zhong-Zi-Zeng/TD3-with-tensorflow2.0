@@ -33,7 +33,7 @@ for i in range(EPISODES):
         state = next_state
 
     reward_list.append(total_reward)
-
+# 你好
 plt.plot(reward_list)
 plt.xlabel('Episode')
 plt.ylabel('Score')
